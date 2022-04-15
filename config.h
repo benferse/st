@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JuliaMono Nerd Font Mono:Regular:size=14:antialias=true:autohint=true";
+static char *font = "monospace:Regular:size=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
