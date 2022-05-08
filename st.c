@@ -1675,6 +1675,10 @@ csihandle(void)
 		csidump();
 		/* die(""); */
 		break;
+    case '>':
+        fprintf(stderr, "erresc: some app is trying to enable/disable extended keyboard support ");
+        csidump();
+        break;
 	case '@': /* ICH -- Insert <n> blank char */
 		DEFAULT(csiescseq.arg[0], 1);
 		tinsertblank(csiescseq.arg[0]);
